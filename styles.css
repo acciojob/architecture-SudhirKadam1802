@@ -1,1 +1,68 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d3dfd3;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+    padding: 20px;
+    background-color: #d3dfd3;
+}
+
+/* Top Image */
+.imageContainer img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    background-color: white;
+}
+
+td {
+    border: 2px solid #b5c3b5;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.col-small {
+    width: 200px;
+    text-align: center;
+}
+
+.col-large {
+    width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+.title-section {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.objective-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.side-text-title {
+    font-weight: bold;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
